@@ -47,6 +47,7 @@
 		563C04F51E1991180003B9D7 /* gps fakeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "gps fakeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		563C04F91E1991180003B9D7 /* gps_fakeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gps_fakeUITests.swift; sourceTree = "<group>"; };
 		563C04FB1E1991180003B9D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56B85A4D1E1995F20064C8F6 /* Location.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Location.gpx; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +104,7 @@
 				563C04E01E1991180003B9D7 /* Assets.xcassets */,
 				563C04E21E1991180003B9D7 /* LaunchScreen.storyboard */,
 				563C04E51E1991180003B9D7 /* Info.plist */,
+				56B85A4D1E1995F20064C8F6 /* Location.gpx */,
 			);
 			path = "gps fake";
 			sourceTree = "<group>";
@@ -193,6 +195,7 @@
 				TargetAttributes = {
 					563C04D51E1991180003B9D7 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 2GHC3Y5884;
 						ProvisioningStyle = Automatic;
 					};
 					563C04E91E1991180003B9D7 = {
@@ -412,6 +415,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2GHC3Y5884;
 				INFOPLIST_FILE = "gps fake/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "guoguo.gps-fake";
@@ -424,6 +428,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2GHC3Y5884;
 				INFOPLIST_FILE = "gps fake/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "guoguo.gps-fake";
@@ -505,6 +510,7 @@
 				563C05001E1991180003B9D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		563C05011E1991180003B9D7 /* Build configuration list for PBXNativeTarget "gps fakeTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +519,7 @@
 				563C05031E1991180003B9D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		563C05041E1991180003B9D7 /* Build configuration list for PBXNativeTarget "gps fakeUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +528,7 @@
 				563C05061E1991180003B9D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
